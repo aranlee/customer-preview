@@ -1,11 +1,12 @@
-@import "index.css";
+@import "home.css";
 @import "shops.css";
 
 body {
-    background-color: black;
+    background-color: #97DC76;
 }
 #title {
-    font-size: 50px;
-    color: white;
+    font-size: 60px;
+    color: #e67b4a;
     text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
