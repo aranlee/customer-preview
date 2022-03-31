@@ -1,3 +1,6 @@
+@import "index.css";
+@import "shops.css";
+
 body {
     background-color: black;
 }
@@ -5,28 +8,4 @@ body {
     font-size: 50px;
     color: white;
     text-align: center;
-}
-.opening_select {
-    height: 100px;
-    width: 250px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(255, 255, 255, 0.4);
-    margin: 10px;
-    margin-left: 40%;
-    border-radius: 10px;
-}
-.opening_select:hover {
-    cursor: pointer;
-    background-color:rgba(255, 255, 255, 0.7);
-}
-.opening_select:first-child {
-    margin-top: 100px;
-}
-#opening_btn {
-    font-size: 30px;
-    align-items: center;
-    color: white;
 }
